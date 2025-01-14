@@ -34,4 +34,23 @@ body.appendChild(Counterplus);
 
 
 
+let count = 0;
+
+Countermoins.onclick = function () {
+    count -= 1;
+    Counterlabel.innerHTML = count;
+
+}
+
+Counterplus.onclick = function () {
+    count += 1;
+    Counterlabel.innerHTML = count;
+    
+}
+
+Reset.onclick = function () {
+    count = 0;
+    Counterlabel.innerHTML = count;
+    
+}
 
